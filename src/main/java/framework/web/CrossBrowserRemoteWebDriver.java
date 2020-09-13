@@ -18,6 +18,7 @@ import static java.lang.String.format;
 public class CrossBrowserRemoteWebDriver {
 //     Docker grid: http://0.0.0.0:4444/wd/hub
 //    private String hubUrl = "http://0.0.0.0:4444/wd/hub";
+    //local mac address
     private String hubUrl = "http://10.0.1.55:4444/wd/hub";
     private RemoteWebDriver innerDriver;
 

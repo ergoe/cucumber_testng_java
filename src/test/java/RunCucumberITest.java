@@ -10,7 +10,7 @@ import org.testng.annotations.DataProvider;
         //tags = {"@testing"},
         dryRun= false
 )
-public class RunCucumberIT extends AbstractTestNGCucumberTests{
+public class RunCucumberITest extends AbstractTestNGCucumberTests{
     @Override
     @DataProvider(parallel = true)
     public Object[][] scenarios() {
